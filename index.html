@@ -24,9 +24,9 @@
     <div id="app">
         <div class="container">
             <div class="row max-height align-items-center">
-                <div :style="{'backgroundImage': getUrl}" class="col-9 col-md-10 mx-auto img-container">
-                    <a @click="prevImage" class="btn btn-left"><i class="fas fa-caret-left"></i></a>
-                    <a @click="nextImage" class="btn btn-right"><i class="fas fa-caret-right"></i></a>
+                <div id="image-container" :style="{'backgroundImage': getUrl}" class="col-9 col-md-10 mx-auto img-container">
+                    <a id="left-click" @click="prevImage" class="btn btn-left"><i class="fas fa-caret-left"></i></a>
+                    <a id="right-click" @click="nextImage" class="btn btn-right"><i class="fas fa-caret-right"></i></a>
                 </div>
             </div>
         </div>
