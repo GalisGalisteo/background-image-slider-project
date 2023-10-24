@@ -6,7 +6,7 @@ const pictures = [
   "contBcg-4"
 ];
 
-const imgFolder = './img/';
+const imgFolder = '../img/';
 
 const imageContainerNode = document.querySelector('#image-container');
 
